@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yuyaa — Portfolio</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#focus" class="nav-link">Focus</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <div class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="bx bx-moon" id="moon-icon"></i>
+          <i class="bx bx-sun" id="sun-icon"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="home container">
+      <div class="home-left">
+        <span class="badge">Available for work</span>
+        <h1>Hi, I'm <span class="accent">Muhammad Yusuf Ibrahim Ramadhani</span></h1>
+        <h2 class="typing-text" aria-live="polite"></h2>
+
+        <p class="lead">
+          I analyze data to uncover insights and create meaningful visual stories.  
+          As a data enthusiast, I enjoy turning raw information into clear, data-driven decisions 
+          through visualization and analytics.
+        </p>
+
+        <div class="meta">
+          <div>📍 Blitar</div>
+          <div>✅ Available Now</div>
+        </div>
+
+        <div class="cta">
+          <!-- <a class="btn primary" href="#">Hire Me</a> -->
+          <a class="btn outline" href="#" download="CV - Muhammad Yusuf Ibrahim Ramadhani.pdf">Download CV</a>
+        </div>
+
+        <div class="socials">
+          <span>Follow me:</span>
+          <a href="https://github.com/Yusuf-IR08/" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/muhammadyusufibrahimramadhani/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="home-right">
+        <img src="./pict/mee.png" alt="profile" class="avatar" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about container">
+      <div class="section-header small">ABOUT ME</div>
+      <div class="about-inner">
+        <div class="about-left">
+          <h2>Turning Data Into<br/>Meaningful Insights</h2>
+          <p class="lead">
+            I'm a data enthusiast and fresh graduate who learns independently. 
+            My journey in data science began with curiosity about how data can tell stories and support decisions. 
+            I love exploring datasets, visualizing trends, and finding insights that can make a real impact.
+          </p>
+          <p>
+            When I'm not analyzing data, I spend my time learning new tools, improving personal projects, 
+            and expanding my knowledge in analytics, statistics, and machine learning.
+          </p>
+
+          <div class="cards-row">
+            <div class="mini-card">
+              <h4>Skills</h4>
+              <p>Excel, Python, SQL, Data Visualization</p>
+            </div>
+            <div class="mini-card">
+              <h4>Education</h4>
+              <p>Bachelor of Informatics Engineering, Universitas Islam Balitar</p>
+            </div>
+            <div class="mini-card">
+              <h4>Focus Areas</h4>
+              <p>Data Analysis, Dashboarding</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <img src="./pict/hey.png" alt="about-avatar" class="about-avatar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects container">
+      <div class="section-header">Featured Work</div>
+      <p class="subtle">A selection of data analysis projects demonstrating skills in data cleaning, exploration, visualization, and business insight generation.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <img src="./pict/superstore-cover.jpg" alt="Supersore preview" />
+          <h3>Superstore Analysis</h3>
+          <p class="muted">Exploratory data analysis on retail sales data to uncover insights related to revenue, profit, and customer behavior.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">Data Visualization</span><span class="tag">EDA</span><span class="tag">Trend Analysis</span>
+          </div>
+          <div class="project-cta">
+            <a class="btn small" href="https://www.kaggle.com/datasets/vivek468/superstore-dataset-final">Dataset</a>
+            <a class="btn outline small" href="https://github.com/Yusuf-IR08/superstore-analys">Github</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <img src="./pict/customer-cover.png" alt="Portfolio preview" />
+          <h3>Customer Shopping Trends Analys</h3>
+          <p class="muted">Analysis of customer purchasing behavior to identify patterns, preferences, and factors influencing buying decisions.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">Excel</span><span class="tag">Data Cleaning</span><span class="tag">Customer Analysis</span>
+          </div>
+          <div class="project-cta">
+            <a class="btn small" href="https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset">Dataset</a>
+            <a class="btn outline small" href="https://github.com/Yusuf-IR08/customer-shopping-analys">Github</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <img src="./pict/supermarket-cover.jpg" alt="Weather app" />
+          <h3>Supermarket Sales Analys</h3>
+          <p class="muted">Analysis of sales performance to evaluate product trends, revenue distribution, and business performance over time.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">Excel</span><span class="tag">Data Analysis</span><span class="tag">Visualization</span>
+          </div>
+          <div class="project-cta">
+            <a class="btn small" href="https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales">Dataset</a>
+            <a class="btn outline small" href="https://github.com/Yusuf-IR08/supermarket-sales-analys">Github</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="focus" class="focus container">
+      <div class="section-header">Data-Driven Work</div>
+      <p class="subtle">What I’m passionate about — from cleaning and analyzing data to turning insights into impact.</p>
+
+      <div class="focus-grid">
+        <div class="focus-card active">
+          <div class="iconwrap"><i class="bx bx-brush"></i></div>
+          <h4>Data Cleaning & Preparation</h4>
+          <p class="muted">I transform raw and messy data into clean, structured datasets ready for analysis using Python, Pandas, and Excel.</p>
+        </div>
+
+        <div class="focus-card">
+          <div class="iconwrap"><i class="bx bx-code-alt"></i></div>
+          <h4>Exploratory Data Analysis</h4>
+          <p class="muted">I explore datasets to uncover trends, correlations, and patterns through data visualization and descriptive statistics.</p>
+        </div>
+
+        <div class="focus-card">
+          <div class="iconwrap"><i class="bx bx-mobile-alt"></i></div>
+          <h4>Data Visualization</h4>
+          <p class="muted">I create clear and insightful visualizations using Matplotlib, Seaborn, or Power BI to communicate findings effectively.</p>
+        </div>
+
+        <div class="focus-card">
+          <div class="iconwrap"><i class="bx bx-line-chart"></i></div>
+          <h4>Learning The Machine Learning</h4>
+          <p class="muted">I’m currently learning the fundamentals of machine learning, including supervised and unsupervised techniques, through hands-on projects.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <div class="section-header small">CONTACT</div>
+          <h2>Get in Touch</h2>
+          <p class="lead">I'm open to discuss exciting projects and new opportunities. Let's collaborate!</p>
+
+          <ul class="contact-info">
+            <li><i class="bx bx-envelope"></i> yusufibrahimramadhani@gmail.com</li>
+            <!-- <li><i class="bx bx-phone"></i> +213 00 11 22 33 44</li> -->
+            <li><i class="bx bx-map"></i> Jawa Timur, Indonesia</li>
+          </ul>
+
+          <div class="socials">
+            <a href="https://github.com/Yusuf-IR08"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" onsubmit="return false">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="6" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left"></div>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="copyright">© 2025 Yuyaa. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
